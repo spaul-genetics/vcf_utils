@@ -10,4 +10,4 @@ if (length(args)==0) {
 
 vcf_stats = args[1]
 
-rmarkdown::render('test_script_html.R', output_file = args[2])
+rmarkdown::render('prepare_vcf_stats.R', output_file = args[2])
